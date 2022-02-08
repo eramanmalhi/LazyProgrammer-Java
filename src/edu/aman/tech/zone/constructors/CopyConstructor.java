@@ -22,8 +22,9 @@ public class CopyConstructor {
 		System.out.println(obj2.title+":"+obj2.number+":"+obj2.hashCode());
 		CopyConstructor obj3=obj1;
 		System.out.println(obj3.title+":"+obj3.number+":"+obj3.hashCode());
-		obj1.number=102L;
-		System.out.println(obj1.number+":"+obj2.number+":"+obj3.number);
+		obj3.number=200L;
+		System.out.println("Number for obj3:"+obj3.number);
+		System.out.println("Number for obj1:"+obj1.number);
 	}
 
 }
